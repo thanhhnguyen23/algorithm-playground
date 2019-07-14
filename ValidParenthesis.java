@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Stack;
+package stirngs;
 
 public class ValidParenthesis{
     public static void main(String[]args){
@@ -7,17 +6,17 @@ public class ValidParenthesis{
 //        System.out.println(myString);
     }
 
-    private static boolean isValid(String s){
+//    private static boolean isValid(String s){
 //        HashMap<Character, Character> map = new HashMap<Character, Character>();
 //        map.put('(', ')');
 //        map.put('[', ']');
 //        map.put('{', '}');
-//        
+//
 //        Stack<Character> stack = new Stack<Character>();
 //
 //        for (int i = 0; i < s.length(); i++) {
 //            char curr = s.charAt(i);
-//        
+//
 //            if (map.keySet().contains(curr)) {
 //                stack.push(curr);
 //            } else if (map.values().contains(curr)) {
@@ -29,5 +28,5 @@ public class ValidParenthesis{
 //            }
 //        }
 //        return stack.empty();
-    }
+//    }
 }

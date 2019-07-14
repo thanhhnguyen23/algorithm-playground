@@ -1,4 +1,4 @@
-import java.util.HashMap;
+package google;
 
 public class ContainsCommonItem {
   /*
@@ -26,7 +26,7 @@ public class ContainsCommonItem {
     // int[] arr2 = {5,6,7,8,9};
     int[] arr2 = { 6, 7, 8, 9 };
     // boolean result = containsCommonItem(arr1, arr2);
-    containsCommonItem2(arr1, arr2);
+    containsCommonItem(arr1, arr2);
   }
 
   private static boolean containsCommonItem(int[] arr1, int[] arr2) {
@@ -41,34 +41,4 @@ public class ContainsCommonItem {
     return false;
   }
 
-  private static Boolean containsCommonItem2(int[] arr1, int[] arr2) {
-    /*
-     * array1 = ['a', 'b', 'c', 'x'] array2 = ['z', 'y', 'a']
-     */
-
-    // loop through first array and create object where properties == items in the
-    // array
-
-    HashMap myMap = new HashMap<>();
-
-    for (int i = 0; i < arr1.length; i++) {
-      // if myMap contains any of the elements from array1
-      if (!myMap.containsKey(arr1[i])) {
-        // if key doesn't exist, we will add it to our map
-        myMap.put(arr1[i], true);
-      }
-    }
-    System.out.println(myMap);
-
-    // loop through second array and check if item in second array exists on created
-    // object
-    for (int j = 0; j < arr2.length; j++) {
-      if (!myMap.containsKey(arr2[i])) {
-        myMap.put(arr2[i], true);
-        return true;
-      }
-    }
-    return false;
-
-  }
 }

@@ -1,3 +1,5 @@
+package strings;
+
 public class reverseStringWithStringBuilder{
 	public static void main(String[]args){
     // reverse string with StringBuilder
