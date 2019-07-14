@@ -12,10 +12,6 @@ public class LengthRecursively {
         }
         else{
             return length(str.substring(1)) + 1;
-
-//        illustrating recursive call
-//        String s = "hello";
-//        System.out.println(s.substring(1));
         }
     }
 }
