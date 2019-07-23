@@ -1,4 +1,4 @@
-package strings;
+package datastructures.strings;
 
 public class ReplaceSpaces {
     public static void main(String[] args) {

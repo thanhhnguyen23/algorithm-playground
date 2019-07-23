@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package datastructures.list.arrays;
 
 /**
  * demonstrates array class with low-level interface

@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package datastructures.list.arrays;
 
 /**
  * data items as class objects

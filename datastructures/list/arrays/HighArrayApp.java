@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package datastructures.list.arrays;
 
 /**
  * demonstrates array class with high-level interface
@@ -23,23 +23,25 @@ class HighArray {
     //      > return -1 if the array is empty
     //--------------------------------------------------------------------------------
 
-    public long getMax(){
+    public long getMax() {
+        if (a.length == 0) {
+            return -1;
 
-        long maxValue = a[0];
+        } else {
+            long maxValue = a[0];
 
-        for (int i = 0; i < nElems; i++){
-            if(a[i] > maxValue){
-                maxValue = a[i];
+            for (int i = 0; i < nElems; i++) {
+                if (a[i] > maxValue) {
+                    maxValue = a[i];
+                }
             }
+            return maxValue;
         }
-        return maxValue;
     }
     //--------------------------------------------------------------------------------
     // 2.2 add a method called removeMax()
     //      > find and remove from array
     //--------------------------------------------------------------------------------
-
-
 
     //--------------------------------------------------------------------------------
     // find specified key
@@ -148,7 +150,14 @@ class HighArrayApp {
         // getMax() driver method
         //--------------------------------------------------------------------------------
 //        Long result = arr.getMax();
-//        System.out.println("max value: " + result);
+//        System.out.println("[max]: " + result);
+
+        //--------------------------------------------------------------------------------
+        // removeMax() driver method
+        //--------------------------------------------------------------------------------
+//        arr.removeMax(); // TODO --
+        arr.display();
+
         //--------------------------------------------------------------------------------
 
         // search for item

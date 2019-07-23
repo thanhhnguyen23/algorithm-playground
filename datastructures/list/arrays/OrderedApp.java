@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package datastructures.list.arrays;
 
 // demonstrates ordered array class
 class OrdArray{
@@ -81,6 +81,7 @@ class OrdArray{
             return true;
         }
     } // end delete()
+
     //--------------------------------------------------------------------------------
     // display array contents
     public void display(){

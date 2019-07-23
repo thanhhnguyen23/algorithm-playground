@@ -1,4 +1,4 @@
-package datastructures.arrays.project;
+package datastructures.list.arrays.project;
 
 public class Two_1 {
     /**

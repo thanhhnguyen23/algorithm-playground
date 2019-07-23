@@ -1,4 +1,4 @@
-package strings;
+package datastructures.strings;
 
 public class reverseStringWithStringBuilder{
 	public static void main(String[]args){
