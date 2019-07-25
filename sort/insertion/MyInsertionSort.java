@@ -1,33 +1,18 @@
 package sort.insertion;
 
 public class MyInsertionSort {
-
-    public static int[] myInsertionSort(int[] input){
-        int temp;
-        for(int i = 1; i < input.length; i++){
-            for(int j = i; j > 0; j--){
-                if(input[j] < input[j - 1]){
-                    // input[j] -> input[0]
-                    // input[j - 1] -> input[input.length - 1]
-                    temp = input[j];
-                    input[j] = input[j - 1];
-                    input[j - 1] = temp;
-                }
-            }
-        }
-        return input;
-
-    }
-
     public static void main(String[] args) {
-//        int[] arr1 = {10,34,2,56,7,67,88,42};
-        int[] arr1 = {5,6,2,1};
-        int[] arr2 = myInsertionSort(arr1);
+        int[] intArray = {2,35,-15,7,55,1,-22};
 
-        for(int i : arr2){
-            System.out.print(i);
-            System.out.print(", ");
+        for(int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++){
+            int newElement = intArray[firstUnsortedIndex];
+
+            int i;
+
+            for (i = firstUnsortedIndex; i > 0 && intArray[i - 1] > newElement; i--){
+                intArray[i] = intArray[i - 1];
+            }
+            intArray[i] = newElement;
         }
-
     }
 }
