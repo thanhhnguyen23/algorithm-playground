@@ -1,3 +1,5 @@
+package recursion;
+
 public class SumRecursively {
     public static void main(String[] args) {
 

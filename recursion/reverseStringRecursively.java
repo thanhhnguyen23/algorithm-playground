@@ -1,4 +1,4 @@
-package datastructures.strings;
+package recursion;
 
 public class reverseStringRecursively{
     public static void main(String[]args){
