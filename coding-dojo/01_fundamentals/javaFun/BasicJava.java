@@ -165,19 +165,20 @@ public class BasicJava {
     /**
      * min, max, average
      */
-    public ArrayList<Integer> print10() {
-        /**
-         * Given any array x, say [1, 5, 10, -2], write a method that returns an array with the maximum number in the array, the minimum value in the array, and the average of the values in the array. The returned array should be three elements long and contain: [MAXNUM, MINNUM, AVG]
-         */
-    }
+
+//    public ArrayList<Integer> print10() {
+//        /**
+//         * Given any array x, say [1, 5, 10, -2], write a method that returns an array with the maximum number in the array, the minimum value in the array, and the average of the values in the array. The returned array should be three elements long and contain: [MAXNUM, MINNUM, AVG]
+//         */
+//    }
 
     /**
      * shifting values in an array
      */
-    public ArrayList<Integer> print11() {
-        /**
-         * Given any array x, say [1, 5, 10, 7, -2], write a method that shifts each number by one to the front. For example, when the method is done, an x of [1, 5, 10, 7, -2] should become [5, 10, 7, -2, 0]. Notice that the last number is 0. The method does not need to wrap around the values shifted out of bounds.
-         */
-    }
+//    public ArrayList<Integer> print11() {
+//        /**
+//         * Given any array x, say [1, 5, 10, 7, -2], write a method that shifts each number by one to the front. For example, when the method is done, an x of [1, 5, 10, 7, -2] should become [5, 10, 7, -2, 0]. Notice that the last number is 0. The method does not need to wrap around the values shifted out of bounds.
+//         */
+//    }
 
 }
