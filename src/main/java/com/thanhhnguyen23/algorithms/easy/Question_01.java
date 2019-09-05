@@ -15,16 +15,16 @@ import java.util.Arrays;
  */
 public class Question_01 {
     public static void main(String[] args) {
-//        int[] array = {3,5,-4,8,11,1,-1,6}; // target: 10
+        int[] array = {3,5,-4,8,11,1,-1,6}; // target: 10
 //        int[] array = {1,2,3,4,5,6,7,8,9}; // target: 17
 //        int[] array = {4,6,1}; // target: 5
 //        int[] array = {4,6,1,-3}; // target: 3
 //        int[] array = {3,5,-4,8,11,1,-1,6}; // target: 10
 //        int[] array = {-21,301,12,4,65,56,210,356,9,-47}; // target: 163
 //        int[] array = {-21,301,12,4,65,56,210,356,9,-47}; // target: 164
-        int[] array = {3,5-4,8,11,1,-1,6}; // target: 15
+//        int[] array = {3,5-4,8,11,1,-1,6}; // target: 15
 
-        int[] result = twoNumberSum(array,15);
+        int[] result = twoNumberSum(array,10);
         System.out.println(Arrays.toString(result));
     }
 
@@ -33,7 +33,7 @@ public class Question_01 {
 
         if(arr.length < 0) return new int[]{};
 
-        for (int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length - 1; i++){
             for(int j = i + 1; j < arr.length; j++){
                 if(arr[i] + arr[j] == target){
                     return arr[i] < arr[j] ? new int[] {arr[i], arr[j]} : new int[] {arr[j], arr[i]};
