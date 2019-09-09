@@ -1,4 +1,4 @@
-package com.codingdojo.one_fundamentals.javafundametnals;
+package com.codingdojo.one_fundamentals.javafundamentals;
 
 public class BasicJavaTest {
     public static void main(String[] args) {
