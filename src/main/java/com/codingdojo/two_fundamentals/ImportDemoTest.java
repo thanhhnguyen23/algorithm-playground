@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 public class ImportDemoTest{
 
     public static void main(String[]args){

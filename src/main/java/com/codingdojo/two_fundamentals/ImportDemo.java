@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 import java.util.Date;
 
 public class ImportDemo{

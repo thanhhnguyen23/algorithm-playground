@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 public class FirstJavaProgram{
   public static void main(String[]args){
     System.out.println("My name is Thanh Nguyen");

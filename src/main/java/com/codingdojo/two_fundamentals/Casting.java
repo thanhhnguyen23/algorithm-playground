@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 class Casting{
   public static void main(String[] args){
     /**

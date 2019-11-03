@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 public class FizzBuzz {
     public String fizzBuzz(int number) {
         /**

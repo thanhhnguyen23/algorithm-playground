@@ -1,3 +1,4 @@
+package com.codingdojo.two_fundamentals;
 
 public class StringManipulatorTesting{
     public static void main(String[] args) {

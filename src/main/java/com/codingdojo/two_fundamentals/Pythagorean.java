@@ -1,4 +1,4 @@
-package com.codingdojo.one_fundamentals.javafundamentals;
+package com.codingdojo.two_fundamentals;
 
 public class Pythagorean {
 

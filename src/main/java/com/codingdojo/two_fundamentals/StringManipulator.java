@@ -1,3 +1,5 @@
+package com.codingdojo.two_fundamentals;
+
 public class StringManipulator {
     public String trimAndConcat(String str1, String str2) {
         str1 = str1.trim();

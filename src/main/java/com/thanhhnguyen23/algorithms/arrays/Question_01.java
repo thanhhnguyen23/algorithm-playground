@@ -1,4 +1,4 @@
-package com.thanhhnguyen23.algorithms.easy;
+package com.thanhhnguyen23.algorithms.arrays;
 
 import java.util.Arrays;
 
