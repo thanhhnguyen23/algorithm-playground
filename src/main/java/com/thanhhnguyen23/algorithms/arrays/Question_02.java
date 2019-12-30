@@ -1,7 +1,5 @@
 package com.thanhhnguyen23.algorithms.arrays;
 
-import java.util.Arrays;
-
 /*
  * three number sum
  *
@@ -18,6 +16,5 @@ import java.util.Arrays;
 public class Question_02 {
     public static void main(String[] args) {
     }
-
 
 }

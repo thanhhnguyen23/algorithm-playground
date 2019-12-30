@@ -18,5 +18,3 @@ package com.thanhhnguyen23.algorithms.bst;
  *
  * sample output: 13
  */
-public class Question_02 {
-}
